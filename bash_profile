@@ -6,7 +6,7 @@ echo -ne "Server time is: "; date
 set -o vi
 
 if [ -e $HOME/.bashrc ]; then
-	. $HOME/.bash_profile
+	. $HOME/.bashrc
 
 fi
 
